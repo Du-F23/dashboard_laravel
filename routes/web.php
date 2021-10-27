@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/bars', function(){
     return view('layout.bars');
 });
+
+Route::get('/sing', function(){
+    return view('pages.sing_in');
+});
+
+Route::get('/login', function(){
+    return view('pages.login');
+});
