@@ -416,5 +416,6 @@
   </div></div></div>
   
 @include('layout.header')
+@include('layout.section')
 @include('layout.footer')
   @include('layout.script')
